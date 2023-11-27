@@ -1,0 +1,806 @@
+section{
+    padding: 65px 0 80px 0;
+}
+b{
+    color: #E6212C;
+    font-size: 50px;
+}
+i{
+    color: #26358A;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+body{
+    font-family: "Roboto" sans-serif;
+}
+
+/* PARTIE HEADER */
+
+header .region{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.region a {
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #24465B;
+}
+
+.nav-link{
+    color: #7D9DC6;
+}
+
+/* PARTIE MAIN */
+#accueil{
+    background: url(https://images.unsplash.com/photo-1591804774220-c1db3673d05b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8SHlyT0YwYzVnd1l8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    
+}
+#accueil .cont p{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: #26358A;
+
+}
+#accueil .cont .badge{
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+#accueil .cont a{
+    text-decoration: none;
+    
+}
+#accueil .heading h5{
+    text-align: center;
+    color: #26358A;
+    font-size: 30px;
+}
+
+/* PARTIE PRESENTATION */
+#presentation .divider{
+    width: 150px;
+    height: 3px;
+    background-color: #E6212C;
+    margin: 0 auto 20px;
+}
+#presentation .heading h1{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #26358A;
+}
+#presentation .heading p{
+    font-size: 20px;
+}
+
+/* PARTIE SERVICE */
+#service{
+    background-color: #E6212C;
+}
+#service button{
+    border-radius: 10px;
+    background-color: #24465B;
+}
+
+#service .heading h1{
+    text-align: center;
+    color: white;
+}
+#service .divider.white{
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto 20px;
+}
+.divider1{
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    margin-top: 20px;
+    
+   
+    
+}
+#service .serv1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.servbdy{
+    display: flex;
+    flex-direction: row;
+}
+.service-un .btn{
+    margin-top: 10px;
+}
+
+/* PARTIE PHOTO */
+#photos .divider{
+    width: 150px;
+    height: 3px;
+    background-color: #E6212C;
+    margin: 0 auto 20px;
+}
+#photos .heading h1{
+    text-align: center;
+    color: #E6212C;
+    margin-bottom: 30px;
+}
+.image img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.image img:hover{
+    cursor: pointer;
+    filter: none;
+    -webkit-filter: none;
+}
+.image .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.image .img-thumbnail{
+    background-color: gray;
+}
+
+/* PARTIE FOOTER */
+footer{
+    background-color: #333;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+footer span{
+    color: #E6212C;
+    font-size: 25px;
+    line-height: 35px;
+}
+footer span:hover{
+    font-size: 27px;
+}
+footer h5{
+    color: white;
+    font-weight: normal;
+}
+/* PARTIE CONTACTE */
+#localite {
+    background-color: #E6212C;
+}
+#localite .heading h1{
+    text-align: center;
+    color: white;
+}
+#localite .divider.white{
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto 20px;
+}
+#localite iframe{
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+
+
+ /* ESPACE A APROPOS -----------------------------------------------BIENVENUE-------- */
+
+ .nous{
+    background-image: url(imageaccueil/imageapropos.jpg);
+    background-size: contain;
+    padding-bottom: 100px;
+ }
+ .nous h2{
+    text-align: center;
+    color: #E6212C;
+    padding-top: 30px;
+ }
+ .nous h6{
+    text-align: center;
+    font-size: 20px;
+    color: #E6212C;
+    font-style: oblique;
+ }
+
+ /* PARTIE A PROPOS */ 
+
+ #apropos{
+    background-color: #214459;
+ }
+ #apropos p{
+    letter-spacing: normal;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+ }
+ #apropos .heading h1{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#apropos .divider.white{
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto 20px;
+}
+
+ /* PARTIE AVIS*/ 
+
+#avis .heading h1{
+    text-align: center;
+    color: #E6212C;
+}
+#avis .divider.white{
+    width: 150px;
+    height: 3px;
+    background-color: #E6212C;
+    margin: 0 auto 20px;
+}
+#mycarousel .carousel-item{
+    padding: 30px 90px 90px;
+}
+#mycarousel .carousel-item h3{
+    color: #214459;
+    font-style: italic;
+}
+
+
+/* ESPACE SERVICE -----------------------------------------------BIENVENUE-------- */
+
+.entete h1{
+    text-align: center;
+    color: white;
+}
+.entete h6{
+    text-align: center;
+    color: white;
+}
+.entete{
+    background-color: #214459;
+    padding-bottom: 30px;
+}
+main img{
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.curage button{
+    border-radius: 20px;
+    background-color: #26358A;
+    margin-top: 10px;
+}
+
+
+/* PARTIE ASSAINISSEMENT*/ 
+#assainissement{
+    padding-top: 0;
+   padding-bottom: 0;
+}
+#assainissement .carte{
+    display: flex;
+    margin-bottom: 0;
+}
+
+#assainissement .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+
+/* PARTIE Débouchage et curage immobilier*/ 
+#debouchage .carte{
+    display: flex;
+}
+#debouchage{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#debouchage .carte .imag{
+    margin-left: 100px;
+    color: #214459;
+}
+#debouchage .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+
+/* PARTIE INSPECTION CAMERA*/ 
+#inspection-camera{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#inspection-camera .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+#inspection-camera .carte{
+    display: flex;
+    
+}
+/* PARTIE SANITAIRE PLOMBERIE */ 
+#sanitairePlomberie{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#sanitairePlomberie .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+#sanitairePlomberie .carte .imag{
+    margin-left: 100px;
+    color: #214459;
+}
+#sanitairePlomberie .carte{
+    display: flex;
+    
+}
+/* PARTIE REHABILITATION*/ 
+
+#rehabilitation{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#rehabilitation .carte{
+    display: flex;
+
+}
+#rehabilitation .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+/* PARTIE HURRICANE*/ 
+#hurricane{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#hurricane .carte .imag{
+    margin-left: 100px;
+    color: #214459;
+}
+#hurricane .carte{
+    display: flex;
+
+}
+#hurricane .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+/* PARTIE Haute pression - Très haute pression*/ 
+#haute-pression{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#haute-pression .carte{
+    display: flex;
+
+}
+#haute-pression .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+/* PARTIE Biohuile */ 
+#biohuile{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#biohuile .carte .imag{
+    margin-left: 100px;
+    color: #214459;
+}
+#biohuile .carte{
+    display: flex;
+
+}
+#biohuile .carte .heading{
+    margin-left: 20px;
+    color: #214459;
+}
+
+
+/* ESPACE SERVICE -----------------ASSAINISSEMENT------------------------------BIENVENUE-------- */
+
+.acueil{
+    background-image: url(https://static.wixstatic.com/media/11062b_7d54a3a629c84c35805214fa2cbc0f78~mv2.jpeg/v1/fill/w_1895,h_1050,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_7d54a3a629c84c35805214fa2cbc0f78~mv2.jpeg);
+    background-size: cover;
+    padding-bottom: 120px;
+}
+.heading1 h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.heading1 h1 .divider1.black{
+    width: 480px;
+    height: 3px;
+    background-color: white;
+    margin-top: -18px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.heading1 h1 .divider1.red{
+    width: 480px;
+    height: 3px;
+    background-color: white;
+    margin-top: -5px;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.acueil .heading2{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+.acueil .heading2 h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #1c3851;
+    line-height: 35px;
+   
+}
+.acueil .heading2 .badge{
+    background-color: #70726F;
+    opacity: 0.6;
+}
+.acueil .heading2 .badge:hover{
+    font-size: 40px;
+}
+.acueil .heading3{
+    padding-left: 550px;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.acueil .heading3 h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #1c3851;
+    line-height: 35px;
+   
+}
+.acueil .heading3 .badge{
+    background-color: #70726F;
+    opacity: 0.6;
+}
+.acueil .heading3 .badge:hover{
+    font-size: 40px;
+}
+
+/* PARTIE SECTION 1 */
+#section1 .service-entete{
+    display: flex;
+    justify-content: space-around;
+}
+#carouselImage .carousel-item img {
+    max-width: 100%; 
+    height: auto;
+    image-rendering: auto;
+}
+#section1 .card{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.card .tete{
+    text-align: center;
+    border-bottom: 1px dashed #26358A;
+}
+.card .tete h5{
+    color: #214459;
+}
+
+#section1 .card-footer .astuce{
+    border: 1px solid #26358A;
+    text-align: center;
+}
+#section1 .card-footer h5{
+    text-align: center;
+    padding-top: 5px;
+    color:  #214459;
+    
+}
+
+/* PARTIE SECTION 2 */
+#section2 .card{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+#section2 .service-entete{
+    display: flex;
+    justify-content: space-around;
+}
+#carouselImage1 .carousel-item img {
+    max-width: 100%; 
+    height: auto;
+    image-rendering: auto;
+}
+#section2 .card-footer h5{
+    text-align: center;
+    padding-top: 5px;
+    color:  #214459;
+    
+}
+#section2 .card-footer .astuce{
+    border: 1px solid #26358A;
+    text-align: center;
+}
+
+/* PARTIE AVANT FOOTER */
+#assainisection .bdyassaini{
+    display: flex;
+    justify-content: space-around;
+}
+#assainisection .imgbdy img{
+    margin-left: 50px;
+    width: 650px;
+    height: 500px;
+    
+}
+#assainisection .heading{
+    margin-left: 20px;
+    color: #596a76;
+    font-weight: normal;
+}
+#assainisection .heading .ligne{
+    padding-left: 220px;
+    color: #214459;
+}
+#assainisection .heading h3{
+    color: #214459;
+}
+
+/* ESPACE SERVICE -----------------DEBOUCHAGE------------------------------BIENVENUE-------- */
+
+#imgaccueil .section-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgaccueil .overlay{
+    width: 500px;
+    position: relative;
+}
+.overlay img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.overlay .text-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #214459;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+.overlay .text-overlay:hover{
+    opacity: 1;
+}
+.overlay .text-overlay h2{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.overlay .text-overlay1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #214459;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.overlay .text-overlay1:hover{
+    opacity: 1;
+}
+.overlay .text-overlay1 h2{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+/* PARTIE SECTION DEBOUCHAGE 2----- */
+
+
+#section-debouchage .content-img img{
+   width: 80%;
+   height: 90%;
+}
+#section-debouchage .content-img .text-img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -490px;
+    margin-left: 70px;
+    color: white;
+    
+}
+#section-debouchage .content{
+    display: flex;
+    margin-top: 10px;
+}
+#section-debouchage .text-content{
+    display: flex;
+    flex-direction: column;
+}
+#section-debouchage .text-border{
+    border: 3px solid black;
+}
+#section-debouchage .text-border h1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+#section-debouchage .text-border ul {
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+#section-debouchage .text-border li{
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+#section-debouchage .divider1.black{
+    width: 570px;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto 20px;
+    
+}
+
+#section-debouchage .content-img1 img{
+    width: 85%;
+    height: 95%;
+    padding-left: 60px;
+    margin-left: 20px;
+ }
+ #section-debouchage .text-img1{
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     color: white;
+     margin-top: -450px;
+     margin-left: 180px;
+ }
+ #section-debouchage .text-img1 .text-footer{
+    margin-top: 200px;
+    margin-left: -15px;
+ }
+
+ #section-debouchage .text-img1 .text-head h2{
+   margin-bottom: 30px;
+ }
+ 
+    /* PARTIE SECTION DEBOUCHAGE 3----- */
+
+ #debouche-section .bdydebouchage{
+        display: flex;
+        justify-content: space-around;
+}
+#debouche-section .imgbdy img{
+    margin-left: 50px;
+    width: 650px;
+    height: 500px;
+    
+}
+#debouche-section .heading{
+    margin-left: 20px;
+    color: #596a76;
+    font-weight: normal;
+}
+#debouche-section .heading .ligne{
+    padding-left: 220px;
+    color: #214459;
+}
+#debouche-section .heading h3{
+    color: #214459;
+}
+
+/* ESPACE CONTACT -----------------------------------------------BIENVENUE-------- */
+
+#section-contact form{
+    display: flex;
+    flex-direction: row;
+}
+#section-contact .divider{
+    width: 150px;
+    height: 3px;
+    background-color: #E6212C;
+    margin: 0 auto 20px;
+}
+#section-contact .heading h1{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #26358A;
+}
+#accueil-header{
+    background-image: url(https://static.wixstatic.com/media/3889c43e939245cd8ae21a24f2a30325.jpg/v1/fill/w_1895,h_428,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3889c43e939245cd8ae21a24f2a30325.jpg);
+}
+
+/*     PARTIE SECTION HEADER */
+#accueil-header .text-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    border-width: 5px;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+#accueil-header .foot-text{
+    border: 1px solid red;
+    background-color: #E6212C;
+    padding-left: 40px;
+    padding-right: 100px;
+    margin-left: 167px;
+   
+}
+#accueil-header .foot-text a{
+    text-decoration: none;
+}
+#accueil-header .foot-text p{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+}
+
+#accueil-header  i{
+    font-size: 20px;
+}
+#accueil-header .foot-contact h3{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-weight: bolder;
+}
